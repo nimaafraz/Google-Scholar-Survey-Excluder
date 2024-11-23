@@ -22,6 +22,9 @@ Papers are classified as surveys based on the presence of specific keywords in t
 - **approaches**
 - **opportunities**
 - **concepts**
+- **roadmap**
+- **Advances in**
+- **Analysis of**
 
 #### Rationale:
 These keywords typically indicate that the paper is not an original research article but rather a survey, review, or commentary on a topic. However, this is not a comprehensive list and neither is the ideal way of doing it (see Future Improvements.)
@@ -44,10 +47,9 @@ In the future, I hope to implement a more advanced classification system for ide
 3. Right Click on the Google Scholar page and press **Save As ...** to save the page as an HTML file named `papers.html`.
 
 ### Step 2: Run the Code
-1. Save the provided Python script in a file named, for example, `exclude_surveys.py`.
-2. Place the `papers.html` file in the same directory as the script.
-3. Open a terminal or command prompt and navigate to the directory.
-4. Run the script using the following command:
+1. Place the `papers.html` file in the same directory as the script.
+2. Open a terminal or command prompt and navigate to the directory.
+3. Run the script using the following command:
    ```bash
    python exclude_surveys.py
    ```
